@@ -1,0 +1,44 @@
+﻿@model IEnumerable<OrganicWeb.Models.Role>
+
+@{
+    ViewData["Title"] = "Quản lý quyền truy cập";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<section class="section">
+    <div class="card">
+        <div class="card-header">
+            Simple Datatable
+        </div>
+        <div class="card-body">
+            <table class="table table-striped" id="table1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Mô tả</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null)
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.RoleId</td>
+                                <td>@item.RoleName</td>
+                                <td>@item.Description</td>
+                                <td>
+                                    <a asp-area="Admin" asp-controller="AdminRoles" asp-action="Details" asp-route-id="@item.RoleId" class="btn btn-info">View</a>
+                                    <a asp-area="Admin" asp-controller="AdminRoles" asp-action="Edit" asp-route-id="@item.RoleId" class="btn btn-secondary">Edit</a>
+                                    <a asp-area="Admin" asp-controller="AdminRoles" asp-action="Delete" asp-route-id="@item.RoleId" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</section>
