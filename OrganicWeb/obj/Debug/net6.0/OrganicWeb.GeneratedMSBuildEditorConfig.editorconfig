@@ -63,8 +63,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tuantv37/06.Ecommerce-web/OrganicWeb/Areas/Admin/Views/Shared/_SlideBarPartialView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TbGlkZUJhclBhcnRpYWxWaWV3LmNzaHRtbA==
+[D:/Tuantv37/06.Ecommerce-web/OrganicWeb/Areas/Admin/Views/Shared/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tuantv37/06.Ecommerce-web/OrganicWeb/Areas/Admin/Views/Shared/_SlideNavPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TbGlkZU5hdlBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Tuantv37/06.Ecommerce-web/OrganicWeb/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]

@@ -1,31 +1,39 @@
 ﻿@model OrganicWeb.Models.Role
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Thông tin quyền truy cập";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
-
-<h1>Details</h1>
-
-<div>
-    <h4>Role</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.RoleName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.RoleName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.RoleId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<div class="main-content">
+    <div class="page-header">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Thông tin quyền truy cập</h4>
+                <div class="table-responsive">
+                    <table class="product-info-table m-t-20">
+                        <tbody>
+                            <tr>
+                                <td>@Html.DisplayNameFor(model => model.RoleId):</td>
+                                <td class="text-dark font-weight-semibold">#@Html.DisplayFor(model => model.RoleId)</td>
+                            </tr>
+                            <tr>
+                                <td>@Html.DisplayNameFor(model => model.RoleName):</td>
+                                <td>@Html.DisplayFor(model => model.RoleName)</td>
+                            </tr>
+                            <tr>
+                                <td>@Html.DisplayNameFor(model => model.Description):</td>
+                                <td>@Html.DisplayFor(model => model.Description)</td>
+                            </tr>
+                            <tr>
+                                <td>Status:</td>
+                                <td>
+                                    <span class="badge badge-pill badge-cyan">Active</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
