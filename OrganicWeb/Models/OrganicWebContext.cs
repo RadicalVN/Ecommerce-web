@@ -285,6 +285,10 @@ namespace OrganicWeb.Models
                 entity.Property(e => e.Description).HasMaxLength(255);
 
                 entity.Property(e => e.RoleName).HasMaxLength(50);
+
+                entity.Property(e => e.Status)
+                    .IsRequired()
+                    .HasDefaultValueSql("((1))");
             });
 
             modelBuilder.Entity<Shipper>(entity =>

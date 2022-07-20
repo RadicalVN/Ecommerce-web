@@ -136,7 +136,8 @@ Create table Roles
 (
 	RoleId		int identity primary Key not null,
 	RoleName	nvarchar(50),
-	Description	nvarchar(255)
+	Description	nvarchar(255),
+	Status		bit not null default 1
 )
 
 Create table Accounts

@@ -14,6 +14,8 @@ namespace OrganicWeb.Models
         public string? RoleName { get; set; }
         public string? Description { get; set; }
 
+        public bool Status { get; set; }
+
         public virtual ICollection<Account> Accounts { get; set; }
     }
 }
