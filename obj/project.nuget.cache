@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dk5LD5ZqxIui3l4RX4NIQUvnmHZywEV8GxYcHA47U//GkPk4X2NuyBxOFGK5PD1z4+gj4fC2jL5dXA4GpE7J0w==",
+  "dgSpecHash": "xUZisS7kx1EUKj3sv9ouN8Dn4vZlGeao5GMwLjrkn+DbXDiGLo1NvL8N+OodD+rTZFAS8GRmMfP/hgFnnzde8Q==",
   "success": true,
-  "projectFilePath": "D:\\Tuantv37\\06.Ecommerce-web\\OrganicWeb\\OrganicWeb.csproj",
+  "projectFilePath": "D:\\Tuantv37\\06.Ecommerce-web\\OrganicWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\root\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\root\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

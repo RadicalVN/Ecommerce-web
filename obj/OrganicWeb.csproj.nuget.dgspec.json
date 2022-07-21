@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tuantv37\\06.Ecommerce-web\\OrganicWeb\\OrganicWeb.csproj": {}
+    "D:\\Tuantv37\\06.Ecommerce-web\\OrganicWeb.csproj": {}
   },
   "projects": {
-    "D:\\Tuantv37\\06.Ecommerce-web\\OrganicWeb\\OrganicWeb.csproj": {
+    "D:\\Tuantv37\\06.Ecommerce-web\\OrganicWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tuantv37\\06.Ecommerce-web\\OrganicWeb\\OrganicWeb.csproj",
+        "projectUniqueName": "D:\\Tuantv37\\06.Ecommerce-web\\OrganicWeb.csproj",
         "projectName": "OrganicWeb",
-        "projectPath": "D:\\Tuantv37\\06.Ecommerce-web\\OrganicWeb\\OrganicWeb.csproj",
+        "projectPath": "D:\\Tuantv37\\06.Ecommerce-web\\OrganicWeb.csproj",
         "packagesPath": "C:\\Users\\root\\.nuget\\packages\\",
-        "outputPath": "D:\\Tuantv37\\06.Ecommerce-web\\OrganicWeb\\obj\\",
+        "outputPath": "D:\\Tuantv37\\06.Ecommerce-web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\root\\AppData\\Roaming\\NuGet\\NuGet.Config",
