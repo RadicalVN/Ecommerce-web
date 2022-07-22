@@ -1,11 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using OrganicWeb.Models;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<OrganicWebContext>();
-
+builder.Services.AddSingleton<HtmlEncoder>(HtmlEncoder.Create(allowedRanges: new[] { UnicodeRanges.All }));
 var app = builder.Build();
 
 
